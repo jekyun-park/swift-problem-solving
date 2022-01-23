@@ -25,6 +25,7 @@ func solution(_ strings:[String], _ n:Int) -> [String] {
     let sortedDict = dict.sorted { a, b in
         return (a.key < b.key)
     }
+    
     var answer :[String] = []
     
     for (key,value) in sortedDict {
@@ -35,9 +36,12 @@ func solution(_ strings:[String], _ n:Int) -> [String] {
     return answer
 }
 
+
 // refactor
 
 func solution2(_ strings:[String], _ n:Int) -> [String] {
     return strings.sorted { Array($0)[n] == Array($1)[n] ? $0 < $1 : Array($0)[n] < Array($1)[n] }
 }
 
+
+print(solution(["abce", "abcd", "cdx"], 2))
