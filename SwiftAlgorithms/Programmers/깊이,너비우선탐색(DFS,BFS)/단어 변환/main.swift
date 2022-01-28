@@ -20,7 +20,7 @@ func solution(_ begin: String, _ target: String, _ words: [String]) -> Int {
 
         while !que.isEmpty {
             let (currentWord, currentMoveCount) = que.removeFirst()
-            visited[newWords.firstIndex(of: currentWord)!] = 1
+//            visited[newWords.firstIndex(of: currentWord)!] = 1
             if currentWord == target { return currentMoveCount }
 
             for i in 0..<newWords.count {
@@ -46,9 +46,8 @@ func isDifferentOneCharacter(_ a: String, _ b: String) -> Bool {
         if a[a.index(a.startIndex, offsetBy: i)] != b[b.index(b.startIndex, offsetBy: i)] {
             wrongCount += 1
         }
-        if wrongCount > 1 { return false }
     }
-    return true
+    return wrongCount == 1
 }
 
 

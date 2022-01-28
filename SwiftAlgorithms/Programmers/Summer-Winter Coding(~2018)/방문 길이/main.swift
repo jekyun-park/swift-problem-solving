@@ -42,6 +42,7 @@ func solution(_ dirs: String) -> Int {
             continue
         }
         
+        // 이동한 좌표
         point.0 = x
         point.1 = y
         
