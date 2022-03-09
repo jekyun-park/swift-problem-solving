@@ -66,8 +66,8 @@ func isCorrectParentheses(_ str:String) -> Bool {
     
 func rotatedString(_ str:String, _ x:Int) -> String {
     
-    let leftSubString = str[str.index(str.startIndex, offsetBy: x)..<str.index(str.endIndex, offsetBy: 0)]
-    let rightSubString = str[str.index(str.startIndex, offsetBy: 0)..<str.index(str.startIndex, offsetBy: x)]
+    let leftSubString = str[str.index(str.startIndex, offsetBy: x)..<str.endIndex]
+    let rightSubString = str[str.startIndex..<str.index(str.startIndex, offsetBy: x)]
     let returnString:String = String(leftSubString) + String(rightSubString)
     
     return returnString

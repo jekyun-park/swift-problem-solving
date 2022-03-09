@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2214E4EE27B807F9007F8AA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2214E4ED27B807F9007F8AA7 /* main.swift */; };
+		2255705D27D89A8A00AEB794 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255705C27D89A8A00AEB794 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,7 @@
 		2214E4E927B7AF01007F8AA7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2214E4ED27B807F9007F8AA7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2214E4EF27B820EB007F8AA7 /* main2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main2.swift; sourceTree = "<group>"; };
+		2214E51227BB39DB007F8AA7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2217CE7526E9FD5C00851DCE /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		2217CE7826E9FD5C00851DCE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		222324652785EEE400F0DD0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -49,9 +50,19 @@
 		222F51F427AC106000072BE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		223C1804274F6F30001A145D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		223C180E274F75BA001A145D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22495C4627BBF10A00F314B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22495C4F27BD0AC300F314B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Summer-Winter Coding(~2018)/영어 끝말잇기/main.swift"; sourceTree = "<group>"; };
+		22495C5227BD391D00F314B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22495C5927BDEA8C00F314B4 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2251881127970A0200B00042 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		225188382799A10700B00042 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2251883B279B068600B00042 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2255702327D34BA800AEB794 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2255702727D4897600AEB794 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2255705227D5CAB600AEB794 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2255705527D64FCA00AEB794 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2255705827D7387C00AEB794 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2255705C27D89A8A00AEB794 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2262775527ACF2CA0008DBF4 /* main2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main2.swift; sourceTree = "<group>"; };
 		2262775B27AD6DCF0008DBF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2262775F27AE1B5F0008DBF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -63,6 +74,9 @@
 		2270B75C27885AB1004703FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2270B75F278BEAD6004703FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2270B763278BFEC4004703FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		227805DB27D0FC160063A939 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		227805DE27D26B230063A939 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		227805E227D317E80063A939 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		228CD5FD2780A39B00151F06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		228CD6012780BD6000151F06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		228E5728279C17D300C60B1B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Summer-Winter Coding(~2018)/방문 길이/main.swift"; sourceTree = "<group>"; };
@@ -71,9 +85,19 @@
 		22B04635278F1F8E00FDD67C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22B883212791B0D700876A19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22B88325279332C200876A19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22C8E88B27C7D465006AAD77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22C8E88F27CB2EBE006AAD77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22C8E89227CB56C1006AAD77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22C8E89627CB7579006AAD77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22C8E89927CDC4D6006AAD77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22C8E89D27CFB36D006AAD77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22D734E427797ED400D22AC1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22EF907427C4766D00BF3AE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22EF909B27C5324A00BF3AE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22FDC7292795C0C300F8A22C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22FDC72D2796DEF600F8A22C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22FE30F327C21576008CD222 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22FE30F727C2957F008CD222 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22FF5C7E2784574D00794118 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22FF5C832784836F00794118 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +116,8 @@
 		2201670A275C7D90003F5043 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				2255705A27D89A4E00AEB794 /* 동적계획법(Dynamic Programming) */,
+				22495C4427BBF0E800F314B4 /* 2020 KAKAO BLIND RECRUITMENT */,
 				2262777627B4CB180008DBF4 /* 2018 KAKAO BLIND RECRUITMENT */,
 				2262776E27B175A50008DBF4 /* 2017 팁스다운 */,
 				222F51DB27A233A100072BE5 /* 2022 KAKAO BLIND RECRUITMENT */,
@@ -127,6 +153,13 @@
 		2201670E275C7DE4003F5043 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				2255705727D7386A00AEB794 /* LeetCode130 */,
+				22C8E89B27CFB355006AAD77 /* LeetCode49 */,
+				22C8E89827CDC4BC006AAD77 /* LeetCode79 */,
+				22C8E89527CB756A006AAD77 /* LeetCode6 */,
+				22C8E89127CB56B0006AAD77 /* LeetCode48 */,
+				22FE30F227C2155C008CD222 /* LeetCode42 */,
+				2214E51127BB39C3007F8AA7 /* LeetCode44 */,
 				22FF5C822784835D00794118 /* LeetCode46 */,
 				2292095B27565DC7001657FB /* LeetCode189 */,
 				229209582755BA4E001657FB /* LeetCode977 */,
@@ -157,11 +190,18 @@
 		221353F227941AE900359B44 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				2255705027D5CAA300AEB794 /* 10800 */,
+				2255702527D4895F00AEB794 /* 15600 */,
+				2255702127D34B8900AEB794 /* 2500 */,
+				227805E027D317CD0063A939 /* 9900 */,
+				22C8E88D27CB2E9D006AAD77 /* 14000 */,
+				22FE30F527C2956A008CD222 /* 19000 */,
+				22495C5427BD524500F314B4 /* 20100 */,
 				2214E4E727B7AEE4007F8AA7 /* 20200 */,
 				2262776427B0E70D0008DBF4 /* 16200 */,
 				2262775D27AE1B310008DBF4 /* 2100 */,
 				2262775727AD0F2D0008DBF4 /* 7500 */,
-				222F51E527A7D3F100072BE5 /* 20050 */,
+				222F51E527A7D3F100072BE5 /* 20000 */,
 				222F5184279E461C00072BE5 /* 21600 */,
 				22FDC72B2796DEE500F8A22C /* 1900 */,
 				22FDC7272795C0AF00F8A22C /* 2600 */,
@@ -240,6 +280,14 @@
 			path = "프렌즈4블록";
 			sourceTree = "<group>";
 		};
+		2214E51127BB39C3007F8AA7 /* LeetCode44 */ = {
+			isa = PBXGroup;
+			children = (
+				2214E51227BB39DB007F8AA7 /* main.swift */,
+			);
+			path = LeetCode44;
+			sourceTree = "<group>";
+		};
 		2217CE6C26E9FD5C00851DCE = {
 			isa = PBXGroup;
 			children = (
@@ -259,11 +307,10 @@
 		2217CE7726E9FD5C00851DCE /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				2262777227B17B550008DBF4 /* Data Structure */,
+				22495C5B27BDEAAB00F314B4 /* Etc. */,
 				221353F227941AE900359B44 /* BOJ */,
 				2201670E275C7DE4003F5043 /* LeetCode */,
 				2201670A275C7D90003F5043 /* Programmers */,
-				222F51EF27AB64DF00072BE5 /* combinationAndPermutation.swift */,
 			);
 			path = SwiftAlgorithms;
 			sourceTree = "<group>";
@@ -297,6 +344,7 @@
 		222C910E27723CE800683A1D /* 2019 KAKAO BLIND RECRUITMENT */ = {
 			isa = PBXGroup;
 			children = (
+				22EF909A27C5323500BF3AE5 /* 후보키 */,
 				2251883A279B067A00B00042 /* 실패율 */,
 				2270B75E278BEAC9004703FE /* 길 찾기 게임 */,
 				222C910F27723CF400683A1D /* 오픈채팅방 */,
@@ -412,12 +460,12 @@
 			path = "금과 은 운반하기";
 			sourceTree = "<group>";
 		};
-		222F51E527A7D3F100072BE5 /* 20050 */ = {
+		222F51E527A7D3F100072BE5 /* 20000 */ = {
 			isa = PBXGroup;
 			children = (
 				222F51E627A7D41000072BE5 /* 20058 */,
 			);
-			path = 20050;
+			path = 20000;
 			sourceTree = "<group>";
 		};
 		222F51E627A7D41000072BE5 /* 20058 */ = {
@@ -463,6 +511,74 @@
 			path = LeetCode69;
 			sourceTree = "<group>";
 		};
+		22495C4427BBF0E800F314B4 /* 2020 KAKAO BLIND RECRUITMENT */ = {
+			isa = PBXGroup;
+			children = (
+				22495C4527BBF0F900F314B4 /* 기둥과 보 설치 */,
+			);
+			path = "2020 KAKAO BLIND RECRUITMENT";
+			sourceTree = "<group>";
+		};
+		22495C4527BBF0F900F314B4 /* 기둥과 보 설치 */ = {
+			isa = PBXGroup;
+			children = (
+				22495C4627BBF10A00F314B4 /* main.swift */,
+			);
+			name = "기둥과 보 설치";
+			path = "기둥과 보 설치";
+			sourceTree = "<group>";
+		};
+		22495C4E27BD0AB300F314B4 /* 영어 끝말잇기 */ = {
+			isa = PBXGroup;
+			children = (
+				22495C4F27BD0AC300F314B4 /* main.swift */,
+			);
+			name = "영어 끝말잇기";
+			sourceTree = "<group>";
+		};
+		22495C5127BD390900F314B4 /* 크레인 인형뽑기 게임 */ = {
+			isa = PBXGroup;
+			children = (
+				22495C5227BD391D00F314B4 /* main.swift */,
+			);
+			name = "크레인 인형뽑기 게임";
+			path = "크레인 인형뽑기 게임";
+			sourceTree = "<group>";
+		};
+		22495C5427BD524500F314B4 /* 20100 */ = {
+			isa = PBXGroup;
+			children = (
+				22495C5527BD524F00F314B4 /* 20164 */,
+			);
+			path = 20100;
+			sourceTree = "<group>";
+		};
+		22495C5527BD524F00F314B4 /* 20164 */ = {
+			isa = PBXGroup;
+			children = (
+				22495C5927BDEA8C00F314B4 /* main.swift */,
+			);
+			path = 20164;
+			sourceTree = "<group>";
+		};
+		22495C5B27BDEAAB00F314B4 /* Etc. */ = {
+			isa = PBXGroup;
+			children = (
+				22495C5C27BDEAD500F314B4 /* files */,
+				2262777227B17B550008DBF4 /* Data Structure */,
+			);
+			path = Etc.;
+			sourceTree = "<group>";
+		};
+		22495C5C27BDEAD500F314B4 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				22EF907327C4763200BF3AE5 /*  BaaarkingDog  */,
+				222F51EF27AB64DF00072BE5 /* combinationAndPermutation.swift */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
 		22518810279709EC00B00042 /* 단어 변환 */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,9 +606,102 @@
 			path = "실패율";
 			sourceTree = "<group>";
 		};
+		2255702127D34B8900AEB794 /* 2500 */ = {
+			isa = PBXGroup;
+			children = (
+				2255702227D34B8F00AEB794 /* 2579 */,
+			);
+			path = 2500;
+			sourceTree = "<group>";
+		};
+		2255702227D34B8F00AEB794 /* 2579 */ = {
+			isa = PBXGroup;
+			children = (
+				2255702327D34BA800AEB794 /* main.swift */,
+			);
+			path = 2579;
+			sourceTree = "<group>";
+		};
+		2255702527D4895F00AEB794 /* 15600 */ = {
+			isa = PBXGroup;
+			children = (
+				2255702627D4896700AEB794 /* 15685 */,
+			);
+			path = 15600;
+			sourceTree = "<group>";
+		};
+		2255702627D4896700AEB794 /* 15685 */ = {
+			isa = PBXGroup;
+			children = (
+				2255702727D4897600AEB794 /* main.swift */,
+			);
+			path = 15685;
+			sourceTree = "<group>";
+		};
+		2255704E27D5A88F00AEB794 /* 0x01 기초 코드 작성 요령 1 */ = {
+			isa = PBXGroup;
+			children = (
+				22EF907427C4766D00BF3AE5 /* main.swift */,
+			);
+			name = "0x01 기초 코드 작성 요령 1";
+			path = "0x01 기초 코드 작성 요령 1";
+			sourceTree = "<group>";
+		};
+		2255705027D5CAA300AEB794 /* 10800 */ = {
+			isa = PBXGroup;
+			children = (
+				2255705127D5CAAA00AEB794 /* 10871 */,
+			);
+			path = 10800;
+			sourceTree = "<group>";
+		};
+		2255705127D5CAAA00AEB794 /* 10871 */ = {
+			isa = PBXGroup;
+			children = (
+				2255705227D5CAB600AEB794 /* main.swift */,
+			);
+			path = 10871;
+			sourceTree = "<group>";
+		};
+		2255705427D64FBD00AEB794 /* 방금그곡 */ = {
+			isa = PBXGroup;
+			children = (
+				2255705527D64FCA00AEB794 /* main.swift */,
+			);
+			name = "방금그곡";
+			path = "방금그곡";
+			sourceTree = "<group>";
+		};
+		2255705727D7386A00AEB794 /* LeetCode130 */ = {
+			isa = PBXGroup;
+			children = (
+				2255705827D7387C00AEB794 /* main.swift */,
+			);
+			path = LeetCode130;
+			sourceTree = "<group>";
+		};
+		2255705A27D89A4E00AEB794 /* 동적계획법(Dynamic Programming) */ = {
+			isa = PBXGroup;
+			children = (
+				2255705B27D89A6E00AEB794 /* N으로 표현 */,
+			);
+			name = "동적계획법(Dynamic Programming)";
+			path = "동적계획법";
+			sourceTree = "<group>";
+		};
+		2255705B27D89A6E00AEB794 /* N으로 표현 */ = {
+			isa = PBXGroup;
+			children = (
+				2255705C27D89A8A00AEB794 /* main.swift */,
+			);
+			name = "N으로 표현";
+			path = "N으로 표현";
+			sourceTree = "<group>";
+		};
 		2255DAA12787052700928BB7 /* Summer-Winter Coding(~2018) */ = {
 			isa = PBXGroup;
 			children = (
+				22495C4E27BD0AB300F314B4 /* 영어 끝말잇기 */,
 				2214E4E427B559A9007F8AA7 /* 배달 */,
 				228E5727279C17BF00C60B1B /* 방문 길이 */,
 				2255DAA22787057F00928BB7 /* 스킬트리 */,
@@ -594,6 +803,8 @@
 		2262777627B4CB180008DBF4 /* 2018 KAKAO BLIND RECRUITMENT */ = {
 			isa = PBXGroup;
 			children = (
+				2255705427D64FBD00AEB794 /* 방금그곡 */,
+				227805DD27D26B0F0063A939 /* 파일명 정렬 */,
 				2214E4EC27B807E5007F8AA7 /* 프렌즈4블록 */,
 				2214E4EB27B807D6007F8AA7 /* 셔틀버스 */,
 			);
@@ -647,6 +858,40 @@
 			path = "이중우선순위큐";
 			sourceTree = "<group>";
 		};
+		227805DA27D0FC080063A939 /* 큰 수 만들기 */ = {
+			isa = PBXGroup;
+			children = (
+				227805DB27D0FC160063A939 /* main.swift */,
+			);
+			name = "큰 수 만들기";
+			path = "큰 수 만들기";
+			sourceTree = "<group>";
+		};
+		227805DD27D26B0F0063A939 /* 파일명 정렬 */ = {
+			isa = PBXGroup;
+			children = (
+				227805DE27D26B230063A939 /* main.swift */,
+			);
+			name = "파일명 정렬";
+			path = "파일명 정렬";
+			sourceTree = "<group>";
+		};
+		227805E027D317CD0063A939 /* 9900 */ = {
+			isa = PBXGroup;
+			children = (
+				227805E127D317D80063A939 /* 9935 */,
+			);
+			path = 9900;
+			sourceTree = "<group>";
+		};
+		227805E127D317D80063A939 /* 9935 */ = {
+			isa = PBXGroup;
+			children = (
+				227805E227D317E80063A939 /* main.swift */,
+			);
+			path = 9935;
+			sourceTree = "<group>";
+		};
 		228CD5FB2780A35E00151F06 /* 2020 카카오 인턴십 */ = {
 			isa = PBXGroup;
 			children = (
@@ -670,6 +915,7 @@
 		228CD5FF2780BD4400151F06 /* 그리디 */ = {
 			isa = PBXGroup;
 			children = (
+				227805DA27D0FC080063A939 /* 큰 수 만들기 */,
 				228CD6002780BD4E00151F06 /* 체육복 */,
 			);
 			name = "그리디";
@@ -730,6 +976,7 @@
 		22B8831F2791B0B100876A19 /* 2019 카카오 개발자 겨울 인턴십 */ = {
 			isa = PBXGroup;
 			children = (
+				22495C5127BD390900F314B4 /* 크레인 인형뽑기 게임 */,
 				22B883202791B0C700876A19 /* 불량 사용자 */,
 			);
 			name = "2019 카카오 개발자 겨울 인턴십";
@@ -763,6 +1010,62 @@
 			path = "괄호 회전하기";
 			sourceTree = "<group>";
 		};
+		22C8E88A27C7D450006AAD77 /* 1976 */ = {
+			isa = PBXGroup;
+			children = (
+				22C8E88B27C7D465006AAD77 /* main.swift */,
+			);
+			path = 1976;
+			sourceTree = "<group>";
+		};
+		22C8E88D27CB2E9D006AAD77 /* 14000 */ = {
+			isa = PBXGroup;
+			children = (
+				22C8E88E27CB2EAB006AAD77 /* 14503 */,
+			);
+			path = 14000;
+			sourceTree = "<group>";
+		};
+		22C8E88E27CB2EAB006AAD77 /* 14503 */ = {
+			isa = PBXGroup;
+			children = (
+				22C8E88F27CB2EBE006AAD77 /* main.swift */,
+			);
+			path = 14503;
+			sourceTree = "<group>";
+		};
+		22C8E89127CB56B0006AAD77 /* LeetCode48 */ = {
+			isa = PBXGroup;
+			children = (
+				22C8E89227CB56C1006AAD77 /* main.swift */,
+			);
+			path = LeetCode48;
+			sourceTree = "<group>";
+		};
+		22C8E89527CB756A006AAD77 /* LeetCode6 */ = {
+			isa = PBXGroup;
+			children = (
+				22C8E89627CB7579006AAD77 /* main.swift */,
+			);
+			path = LeetCode6;
+			sourceTree = "<group>";
+		};
+		22C8E89827CDC4BC006AAD77 /* LeetCode79 */ = {
+			isa = PBXGroup;
+			children = (
+				22C8E89927CDC4D6006AAD77 /* main.swift */,
+			);
+			path = LeetCode79;
+			sourceTree = "<group>";
+		};
+		22C8E89B27CFB355006AAD77 /* LeetCode49 */ = {
+			isa = PBXGroup;
+			children = (
+				22C8E89D27CFB36D006AAD77 /* main.swift */,
+			);
+			path = LeetCode49;
+			sourceTree = "<group>";
+		};
 		22D734E127797E9200D22AC1 /* 월간 코드 챌린지 시즌3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -780,6 +1083,23 @@
 			);
 			name = "빛의 경로 사이클";
 			path = "빛의 경로 사이클";
+			sourceTree = "<group>";
+		};
+		22EF907327C4763200BF3AE5 /*  BaaarkingDog  */ = {
+			isa = PBXGroup;
+			children = (
+				2255704E27D5A88F00AEB794 /* 0x01 기초 코드 작성 요령 1 */,
+			);
+			path = " BaaarkingDog ";
+			sourceTree = "<group>";
+		};
+		22EF909A27C5323500BF3AE5 /* 후보키 */ = {
+			isa = PBXGroup;
+			children = (
+				22EF909B27C5324A00BF3AE5 /* main.swift */,
+			);
+			name = "후보키";
+			path = "후보키";
 			sourceTree = "<group>";
 		};
 		22FDC7272795C0AF00F8A22C /* 2600 */ = {
@@ -801,6 +1121,7 @@
 		22FDC72B2796DEE500F8A22C /* 1900 */ = {
 			isa = PBXGroup;
 			children = (
+				22C8E88A27C7D450006AAD77 /* 1976 */,
 				22FDC72C2796DEEB00F8A22C /* 1926 */,
 			);
 			path = 1900;
@@ -812,6 +1133,30 @@
 				22FDC72D2796DEF600F8A22C /* main.swift */,
 			);
 			path = 1926;
+			sourceTree = "<group>";
+		};
+		22FE30F227C2155C008CD222 /* LeetCode42 */ = {
+			isa = PBXGroup;
+			children = (
+				22FE30F327C21576008CD222 /* main.swift */,
+			);
+			path = LeetCode42;
+			sourceTree = "<group>";
+		};
+		22FE30F527C2956A008CD222 /* 19000 */ = {
+			isa = PBXGroup;
+			children = (
+				22FE30F627C29574008CD222 /* 19236 */,
+			);
+			path = 19000;
+			sourceTree = "<group>";
+		};
+		22FE30F627C29574008CD222 /* 19236 */ = {
+			isa = PBXGroup;
+			children = (
+				22FE30F727C2957F008CD222 /* main.swift */,
+			);
+			path = 19236;
 			sourceTree = "<group>";
 		};
 		22FF5C7C2784572200794118 /* 위클리 챌린지 */ = {
@@ -898,7 +1243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2214E4EE27B807F9007F8AA7 /* main.swift in Sources */,
+				2255705D27D89A8A00AEB794 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
