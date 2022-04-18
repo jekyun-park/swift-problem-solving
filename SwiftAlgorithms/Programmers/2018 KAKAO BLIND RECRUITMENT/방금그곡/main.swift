@@ -10,8 +10,9 @@ import Foundation
 func solution(_ m: String, _ musicinfos: [String]) -> String {
     // musicinfos: 음악이 시작한 시각, 끝난 시각, 음악 제목, 악보 정보
     // m: 기억한 멜로디
-
+    
     let m = m.replacingOccurrences(of: "C#", with: "c").replacingOccurrences(of: "D#", with: "d").replacingOccurrences(of: "F#", with: "f").replacingOccurrences(of: "G#", with: "g").replacingOccurrences(of: "A#", with: "a")
+    
     var resultArray: [(music: String, playTime: Int, name: String)] = []
 
     for info in musicinfos {
@@ -23,11 +24,11 @@ func solution(_ m: String, _ musicinfos: [String]) -> String {
         var music = String(information[3])
 
         music = music.replacingOccurrences(of: "C#", with: "c").replacingOccurrences(of: "D#", with: "d").replacingOccurrences(of: "F#", with: "f").replacingOccurrences(of: "G#", with: "g").replacingOccurrences(of: "A#", with: "a")
-        
+
         if music.count > playTime {
             let offset = playTime
             music = String(music[music.startIndex..<music.index(music.startIndex, offsetBy: offset)])
-
+            
         } else if music.count < playTime {
             let quotient = playTime / music.count
             let remainder = playTime % music.count
