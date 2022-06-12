@@ -11,7 +11,6 @@ func solution(_ grid:[String]) -> [Int] {
     
     let separatedGrid = grid.map {$0.map {String($0)}} // grid를 2x2 배열로 분리
     
-    
     let dir = ["u":(0,-1),"d":(0,1),"r":(1,0),"l":(-1,0)]
     let nextDir : [String:[String:String]] = ["L":["d":"r","r":"u","u":"l","l":"d"],"R":["d":"l","r":"d","u":"r","l":"u"],"S":["u":"u","d":"d","l":"l","r":"r"]]
     
