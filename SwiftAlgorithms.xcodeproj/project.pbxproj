@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2245C93229D5CD490030EBC6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2245C93029D5CC740030EBC6 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		2217CE7326E9FD5C00851DCE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -63,6 +67,7 @@
 		2233ADF1283949330086E062 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		223C1804274F6F30001A145D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		223C180E274F75BA001A145D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2245C93029D5CC740030EBC6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22495C4627BBF10A00F314B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22495C4F27BD0AC300F314B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Summer-Winter Coding(~2018)/영어 끝말잇기/main.swift"; sourceTree = "<group>"; };
 		22495C5227BD391D00F314B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -128,6 +133,8 @@
 		227AF7BB285DB230006F48C2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		227AF7BE285DCF45006F48C2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		227AF7C1285DD692006F48C2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		227B81772915EDA400C0770C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		227B817A2915F70C00C0770C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		227B99CD286315200022B81D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		227B99D128643ED90022B81D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		227B99D42864512C0022B81D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -482,6 +489,7 @@
 		2217CE7726E9FD5C00851DCE /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				2245C92D29D5CC0D0030EBC6 /* 이코테 */,
 				221353F227941AE900359B44 /* BOJ */,
 				22495C5B27BDEAAB00F314B4 /* Etc. */,
 				2201670E275C7DE4003F5043 /* LeetCode */,
@@ -823,6 +831,32 @@
 			path = LeetCode69;
 			sourceTree = "<group>";
 		};
+		2245C92D29D5CC0D0030EBC6 /* 이코테 */ = {
+			isa = PBXGroup;
+			children = (
+				2245C92E29D5CC150030EBC6 /* 3 - Greedy */,
+			);
+			name = "이코테";
+			path = "이코테";
+			sourceTree = "<group>";
+		};
+		2245C92E29D5CC150030EBC6 /* 3 - Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				2245C92F29D5CC680030EBC6 /* 2. 큰 수의 법칙 */,
+			);
+			path = "3 - Greedy";
+			sourceTree = "<group>";
+		};
+		2245C92F29D5CC680030EBC6 /* 2. 큰 수의 법칙 */ = {
+			isa = PBXGroup;
+			children = (
+				2245C93029D5CC740030EBC6 /* main.swift */,
+			);
+			name = "2. 큰 수의 법칙";
+			path = "2. 큰 수의 법칙";
+			sourceTree = "<group>";
+		};
 		22495C4427BBF0E800F314B4 /* 2020 KAKAO BLIND RECRUITMENT */ = {
 			isa = PBXGroup;
 			children = (
@@ -1060,6 +1094,7 @@
 		2255706227DC28E200AEB794 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				227B81732915ED6900C0770C /* 2022 Winter-Coding */,
 				227B99DC2864692D0022B81D /* programmers skill check */,
 				22009D4D2855728000D3C3A3 /* 2022 SKT T-WorX */,
 				224BC722284DF3A300122AEA /* 2022 부스트캠프 웹,모바일 7기 */,
@@ -1068,7 +1103,8 @@
 				22FC8EC427F80FA900708ED1 /* wanted (show me the code) */,
 				2255706327DC28E800AEB794 /* sk */,
 			);
-			path = tests;
+			name = tests;
+			path = ../../../tests;
 			sourceTree = "<group>";
 		};
 		2255706327DC28E800AEB794 /* sk */ = {
@@ -1644,6 +1680,31 @@
 				227AF7C1285DD692006F48C2 /* main.swift */,
 			);
 			path = 1780;
+			sourceTree = "<group>";
+		};
+		227B81732915ED6900C0770C /* 2022 Winter-Coding */ = {
+			isa = PBXGroup;
+			children = (
+				227B81792915F70700C0770C /* 2 */,
+				227B81742915ED7F00C0770C /* 1 */,
+			);
+			path = "2022 Winter-Coding";
+			sourceTree = "<group>";
+		};
+		227B81742915ED7F00C0770C /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				227B81772915EDA400C0770C /* main.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		227B81792915F70700C0770C /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				227B817A2915F70C00C0770C /* main.swift */,
+			);
+			path = 2;
 			sourceTree = "<group>";
 		};
 		227B99CB2863150D0022B81D /* 0x0D 시뮬레이션 */ = {
@@ -2644,11 +2705,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					2217CE7426E9FD5C00851DCE = {
 						CreatedOnToolsVersion = 12.5.1;
-						LastSwiftMigration = 1340;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -2675,6 +2736,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2245C93229D5CD490030EBC6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2715,6 +2777,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -2776,6 +2839,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2802,6 +2866,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = X4KXY85MB9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2821,6 +2886,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = X4KXY85MB9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
