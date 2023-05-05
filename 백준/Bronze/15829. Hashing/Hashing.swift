@@ -2,7 +2,7 @@ import Foundation
 
 func hash(_ n: String, _ times: Int) -> Int {
     
-    return (Int(UnicodeScalar(n)!.value)-96) * Int(pow(31, Double(times)))
+    return (Int(UnicodeScalar(n)!.value)-96) * Int(pow(31, Double(times))) % 1234567891
 }
 
 let n = Int(readLine()!)!
@@ -11,7 +11,7 @@ var answer = 0
 
 for (index, value) in string.enumerated() {
     
-    answer += hash(value, index) % 1234567891
+    answer += hash(value, index)
     
 }
 
