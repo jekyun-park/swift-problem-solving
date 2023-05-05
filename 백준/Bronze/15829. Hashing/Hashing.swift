@@ -1,17 +1,12 @@
-import Foundation
-
-func hash(_ n: String, _ times: Int) -> Int {
-    
-    return (Int(UnicodeScalar(n)!.value)-96) * Int(pow(31, Double(times))) % 1234567891
-}
-
 let n = Int(readLine()!)!
-let string = readLine()!.map { String($0) }
+let string = readLine()!.map { Int(UnicodeScalar(String($0))!.value)-96 }
 var answer = 0
+var r = 1
 
-for (index, value) in string.enumerated() {
+for value in string {
     
-    answer += hash(value, index)
+    answer += value * r
+    r *= 31 % 1234567891
     
 }
 
