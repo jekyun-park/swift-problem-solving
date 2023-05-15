@@ -1,26 +1,13 @@
 import Foundation
 
 var N = Int(readLine()!)!
-var answer = 0
+var dp = Array(repeating: 6000, count: 5001)
+dp[3] = 1
+dp[5] = 1
 
-if N % 5 == 0 {
-    answer += N/5
-    print(answer)
-} else {
-    while N > 0 {
-        N -= 3
-        answer += 1
-        
-        if N % 5 == 0 {
-            answer += N/5
-            print(answer)
-            break
-        } else if N == 1 || N == 2 {
-            print(-1)
-            break
-        } else if N == 0 {
-            print(answer)
-            break
-        }
+if N >= 6 {
+    for i in 6...N {
+        dp[i] = min(dp[i-3] + 1, dp[i-5] + 1)
     }
-}
+} 
+print(dp[N] >= 6000 ? -1 : dp[N])
