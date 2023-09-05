@@ -2,29 +2,19 @@ import Foundation
 
 func solution(_ ingredient:[Int]) -> Int {
     
-    var ingredient = ingredient
-    var index = 0
+    var stack = [Int]()
     var answer = 0
     
-    while index < ingredient.count - 3 {
+    for number in ingredient {
+        stack.append(number)
         
-        if ingredient[index...(index+3)] == [1, 2, 3, 1] {
-            
-            ingredient.removeSubrange(index..<(index+4))
+        let burger = stack.suffix(4)
+        
+        if burger == [1, 2, 3, 1] {
+            stack.removeLast(4)
             answer += 1
-            
-            if index < 4 {
-                index = 0
-            } else {
-                index -= 3
-            }
-            
-        } else {
-            index += 1
         }
-        
     }
-    
     
     return answer
 }

@@ -1,10 +1,10 @@
 # [unrated] 햄버거 만들기 - 133502 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133502?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/133502) 
 
 ### 성능 요약
 
-메모리: 16.7 MB, 시간: 0.05 ms
+메모리: 16.6 MB, 시간: 0.07 ms
 
 ### 구분
 
