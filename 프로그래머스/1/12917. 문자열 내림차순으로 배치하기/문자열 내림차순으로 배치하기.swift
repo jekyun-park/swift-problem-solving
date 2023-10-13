@@ -1,3 +1,3 @@
 func solution(_ s:String) -> String {
-    return s.map { String($0) }.sorted(by: >).joined()
+    return String(s.sorted(by: >))
 }
