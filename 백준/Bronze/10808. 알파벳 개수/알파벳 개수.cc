@@ -4,10 +4,7 @@ using namespace std;
 
 int main()
 {
-    int alphabets[26];
-    for (int i = 0; i < 26; i++)
-        alphabets[i] = 0;
-
+    int alphabets[26] = { 0, };
     string s;
     cin >> s;
 
