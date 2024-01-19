@@ -1,3 +1,4 @@
+// 1620_나는야_포켓몬_마스터_이다솜.cpp
 #include <bits/stdc++.h>
 using namespace std;
 int N, M;
@@ -18,11 +19,9 @@ int main() {
     for (int i = 0; i < M;i++) {
         string s;
         cin >> s;
-        try {
-            int input = stoi(s);
-            cout << mp[input] << "\n";
-        } catch(std::invalid_argument&) {
-            cout << mp2[s] << "\n";
-        }
+        int idx = atoi(s.c_str());
+        if (idx)
+            cout << mp[idx] << "\n";
+        else cout << mp2[s] << "\n"; 
     }
 }
