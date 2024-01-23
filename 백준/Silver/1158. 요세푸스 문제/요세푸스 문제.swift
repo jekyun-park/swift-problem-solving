@@ -1,47 +1,20 @@
 import Foundation
 
-struct Queue<T> {
-  init(input: [T]) {
-    inputStack = input
-  }
-
-  var inputStack: [T] = []
-  var outputStack: [T] = []
-  var count: Int {
-    inputStack.count + outputStack.count
-  }
-  var isEmpty: Bool {
-    inputStack.isEmpty && outputStack.isEmpty
-  }
-
-  mutating func enqueue(_ element: T) {
-    inputStack.append(element)
-  }
-
-  mutating func dequeue() -> T?{
-    if outputStack.isEmpty {
-      outputStack = inputStack.reversed()
-      inputStack.removeAll()
-    }
-    return outputStack.popLast()
-  }
-}
-
 let input = readLine()!.split(separator: " ").map { Int($0)! }
 let N = input.first!, K = input.last!
 
-var people = Queue(input: Array(1...N))
-var count = 1
+var people = Array(1...N)
+var count = K
 var order: [Int] = []
 
+
 while !people.isEmpty {
-  guard let person = people.dequeue() else { break }
-  if count % K == 0 {
-    order.append(person)
+  if count > people.count {
+    count -= people.count
   } else {
-    people.enqueue(person)
+    order.append(people.remove(at: count-1))
+    count += K-1
   }
-  count += 1
 }
 
 print("<", terminator: "")
