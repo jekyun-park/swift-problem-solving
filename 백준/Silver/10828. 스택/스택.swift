@@ -4,12 +4,8 @@ let N = Int(readLine()!)!
 var stack: [Int] = []
 
 for _ in 0..<N {
-  let splitted = readLine()!.split(separator: " ")
-  let op = splitted.first!
-
-  switch op {
-  case "push":
-    stack.append(Int(splitted.last!)!)
+  let input = readLine()!
+  switch input {
   case "pop":
     stack.isEmpty ? print(-1) : print(stack.popLast()!)
   case "size":
@@ -18,7 +14,9 @@ for _ in 0..<N {
     stack.isEmpty ? print(1) : print(0)
   case "top":
     stack.isEmpty ? print(-1) : print(stack.last!)
-  default:
-    break
+  default: // push case
+      let splitted = input.split(separator: " ")
+      let number = Int(splitted.last!)!
+      stack.append(number)
   }
 }
