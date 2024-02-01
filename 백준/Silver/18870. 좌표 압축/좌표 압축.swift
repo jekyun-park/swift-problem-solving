@@ -58,26 +58,13 @@ final class FileIO {
     }
 }
 
-func binarySearch(_ array: [Int], value: Int) -> Int? {
-  var start = 0, end = array.count-1
-  while (start<=end) {
-    let mid = (start+end)/2
-    if array[mid] == value { return mid }
-    else if array[mid] > value {
-      end = mid-1
-    } else {
-      start = mid+1
-    }
-  }
-  return nil
-}
-
 let file = FileIO()
 let N = file.readInt()
 var X = [Int]()
 for _ in 0..<N { X.append(file.readInt()) }
 let sortedX = Array(Set(X)).sorted()
 var dictionary = [Int: Int]()
+var answer = ""
 
 for index in sortedX.indices {
   let number = sortedX[index]
@@ -85,5 +72,7 @@ for index in sortedX.indices {
 }
 
 for element in X {
-  print(dictionary[element]!)
+  answer += "\(dictionary[element]!) "
 }
+
+print(answer)
