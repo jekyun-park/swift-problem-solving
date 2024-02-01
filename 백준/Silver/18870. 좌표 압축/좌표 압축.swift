@@ -15,11 +15,11 @@ func binarySearch(_ array: [Int], value: Int) -> Int? {
 }
 
 let N = Int(readLine()!)!
+
 let X = readLine()!.split(separator: " ").map { Int(String($0))! }
-let sortedX = Array(Set(X.sorted())).sorted()
+let sortedX = Array(Set(X)).sorted()
 
 for element in X {
   let index = binarySearch(sortedX, value: element)! // index 출력
-  let count = sortedX[0..<index].count
-  print(count, terminator: " ")
+  print(index, terminator: " ")
 }
