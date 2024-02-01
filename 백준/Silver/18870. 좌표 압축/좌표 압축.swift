@@ -77,8 +77,13 @@ let N = file.readInt()
 var X = [Int]()
 for _ in 0..<N { X.append(file.readInt()) }
 let sortedX = Array(Set(X)).sorted()
+var dictionary = [Int: Int]()
+
+for index in sortedX.indices {
+  let number = sortedX[index]
+  dictionary[number] = index
+}
 
 for element in X {
-  let index = binarySearch(sortedX, value: element)! // index 출력
-  print(index, terminator: " ")
+  print(dictionary[element]!)
 }
