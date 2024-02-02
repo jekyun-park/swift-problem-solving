@@ -1,4 +1,12 @@
+//
+//  main.swift
+//  SwiftAlgorithms
+//
+//  Created by 박제균 on 2/2/24.
+//  BOJ 2805
+
 import Foundation
+
 
 final class FileIO {
     private let buffer:[UInt8]
@@ -63,17 +71,18 @@ let N = file.readInt()
 let M = file.readInt()
 var trees = [Int]()
 for _ in 0..<N { trees.append(file.readInt()) }
-var start = 0, end = trees.reduce(0, +)
+var start = 0, end = trees.max()!
 
 while start <= end {
-  let mid = (start + end)/2 
-  var sum = 0
+  // 절단기의 높이 H
+  let mid = (start + end)/2
+  var sum = 0 // 가져갈 나무의 양
 
   for tree in trees {
     if tree > mid { sum += tree - mid }
   }
 
-  if sum >= M { 
+  if sum >= M { // // 가져갈 나무의 양이 M보다 크거나 같다면
     start = mid + 1
   } else {
     end = mid - 1
