@@ -95,7 +95,7 @@ func dfs(graph: [[Int]], node: Int, visited: inout [Bool]) {
     if !visited[poped] {
       visited[poped] = true
       stack.append(contentsOf: graph[poped].reversed())
-      answer += "\(poped) "
+      print(poped, terminator: " ")
     }
   }
 }
@@ -107,7 +107,7 @@ func bfs(graph: [[Int]], node: Int, visited: inout [Bool]) {
   while !queue.isEmpty {
     guard let dequeued = queue.dequeue() else { return }
     visited[dequeued] = true
-    answer += "\(dequeued) "
+    print(dequeued, terminator: " ")
 
     for node in graph[dequeued] {
       if !visited[node] {
@@ -121,7 +121,6 @@ let file = FileIO()
 let N = file.readInt()
 let M = file.readInt()
 let V = file.readInt()
-var answer = ""
 var graph: [[Int]] = Array(repeating: [], count: N+1)
 var visited = Array(repeating: false, count: N+1)
 
@@ -134,6 +133,5 @@ for _ in 0..<M {
 graph = graph.map { $0.sorted(by: <) }
 dfs(graph: graph, node: V, visited: &visited)
 visited = Array(repeating: false, count: N+1)
-answer += "\n"
+print()
 bfs(graph: graph, node: V, visited: &visited)
-print(answer)
