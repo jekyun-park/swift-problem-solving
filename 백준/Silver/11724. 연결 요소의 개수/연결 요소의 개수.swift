@@ -1,10 +1,3 @@
-//
-//  main.swift
-//  SwiftAlgorithms
-//
-//  Created by 박제균 on 2/10/24.
-//
-
 import Foundation
 
 final class FileIO {
