@@ -9,17 +9,10 @@ for _ in 0..<N { coins.append(Int(readLine()!)!) }
 var answer = 0
 
 while K > 0 {
-
-  var maximum = Int.min
-  for coin in coins {
-    if K/coin != 0 {
-      maximum = max(coin, maximum)
-    }
-  }
-
-  let quotient = K / maximum
-  answer += quotient
-  K -= quotient * maximum
+  guard let price = coins.popLast() else { break }
+  let q = K / price
+  K -= q * price
+  answer += q
 }
 
 print(answer)
