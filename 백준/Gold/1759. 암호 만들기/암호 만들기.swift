@@ -1,11 +1,10 @@
 import Foundation
 
 let LC = readLine()!.split(separator: " ").map { Int($0)! }
-let L = LC[0], C = LC[1] // L = 암호 글자수, C = 주어진 문자 개수
+let L = LC[0], C = LC[1]
 let alphabets = readLine()!.split(separator: " ").map { String($0) }.sorted(by: <)
 
 let vowel = ["a", "e", "i", "o", "u"]
-let consonant = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z" ]
 var array = [String]()
 var visited = Array(repeating: false, count: C)
 
@@ -23,7 +22,7 @@ func dfs(_ depth: Int, start: Int) {
     }
 
     for char in array {
-      if consonant.contains(char) {
+      if !vowel.contains(char) {
         countConsonant += 1
       }
     }
